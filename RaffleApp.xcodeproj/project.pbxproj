@@ -7,25 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C43AED32482B32A0038BDB3 /* TicketDetailPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C43AED22482B32A0038BDB3 /* TicketDetailPopup.swift */; };
 		2C9B719A2472CFBC0053893A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9B71992472CFBC0053893A /* AppDelegate.swift */; };
 		2C9B719C2472CFBC0053893A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9B719B2472CFBC0053893A /* SceneDelegate.swift */; };
-		2C9B719E2472CFBC0053893A /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9B719D2472CFBC0053893A /* FirstViewController.swift */; };
-		2C9B71A02472CFBC0053893A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9B719F2472CFBC0053893A /* SecondViewController.swift */; };
 		2C9B71A32472CFBC0053893A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C9B71A12472CFBC0053893A /* Main.storyboard */; };
 		2C9B71A52472CFBE0053893A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C9B71A42472CFBE0053893A /* Assets.xcassets */; };
 		2C9B71A82472CFBE0053893A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C9B71A62472CFBE0053893A /* LaunchScreen.storyboard */; };
+		2C9B71B22472D3740053893A /* CurrentRaffleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9B71B12472D3740053893A /* CurrentRaffleTableViewController.swift */; };
+		2C9B71B4247399890053893A /* SQLiteDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9B71B3247399890053893A /* SQLiteDatabase.swift */; };
+		2C9B71B624739CBB0053893A /* Raffle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9B71B524739CBB0053893A /* Raffle.swift */; };
+		2C9B71B824739EE60053893A /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9B71B724739EE60053893A /* Ticket.swift */; };
+		2C9B71BA24739FCB0053893A /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9B71B924739FCB0053893A /* Customer.swift */; };
+		2C9B71BC2473A8170053893A /* CurrentRaffleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9B71BB2473A8170053893A /* CurrentRaffleTableViewCell.swift */; };
+		2C9B71BE2473CA130053893A /* AddRaffleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9B71BD2473CA130053893A /* AddRaffleViewController.swift */; };
+		2C9B71C02473CC300053893A /* VeiwRaffleDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9B71BF2473CC300053893A /* VeiwRaffleDetailViewController.swift */; };
+		2C9B71C224754E750053893A /* TicketTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9B71C124754E750053893A /* TicketTableViewController.swift */; };
+		2C9B71C424754EA10053893A /* TicketTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9B71C324754EA10053893A /* TicketTableViewCell.swift */; };
+		2C9B71C6247645160053893A /* RaffleDrawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9B71C5247645160053893A /* RaffleDrawViewController.swift */; };
+		2C9B71C8247676240053893A /* PastRaffleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9B71C7247676240053893A /* PastRaffleTableViewController.swift */; };
+		2C9B71CA247676440053893A /* PastRaffleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9B71C9247676440053893A /* PastRaffleTableViewCell.swift */; };
+		2C9B71CC24767BBF0053893A /* OrganizationInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9B71CB24767BBF0053893A /* OrganizationInfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C43AED22482B32A0038BDB3 /* TicketDetailPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketDetailPopup.swift; sourceTree = "<group>"; };
 		2C9B71962472CFBB0053893A /* RaffleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RaffleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C9B71992472CFBC0053893A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C9B719B2472CFBC0053893A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2C9B719D2472CFBC0053893A /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		2C9B719F2472CFBC0053893A /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		2C9B71A22472CFBC0053893A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2C9B71A42472CFBE0053893A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C9B71A72472CFBE0053893A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C9B71A92472CFBE0053893A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C9B71B12472D3740053893A /* CurrentRaffleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentRaffleTableViewController.swift; sourceTree = "<group>"; };
+		2C9B71B3247399890053893A /* SQLiteDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteDatabase.swift; sourceTree = "<group>"; };
+		2C9B71B524739CBB0053893A /* Raffle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Raffle.swift; sourceTree = "<group>"; };
+		2C9B71B724739EE60053893A /* Ticket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
+		2C9B71B924739FCB0053893A /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		2C9B71BB2473A8170053893A /* CurrentRaffleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentRaffleTableViewCell.swift; sourceTree = "<group>"; };
+		2C9B71BD2473CA130053893A /* AddRaffleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRaffleViewController.swift; sourceTree = "<group>"; };
+		2C9B71BF2473CC300053893A /* VeiwRaffleDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeiwRaffleDetailViewController.swift; sourceTree = "<group>"; };
+		2C9B71C124754E750053893A /* TicketTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketTableViewController.swift; sourceTree = "<group>"; };
+		2C9B71C324754EA10053893A /* TicketTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketTableViewCell.swift; sourceTree = "<group>"; };
+		2C9B71C5247645160053893A /* RaffleDrawViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaffleDrawViewController.swift; sourceTree = "<group>"; };
+		2C9B71C7247676240053893A /* PastRaffleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastRaffleTableViewController.swift; sourceTree = "<group>"; };
+		2C9B71C9247676440053893A /* PastRaffleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastRaffleTableViewCell.swift; sourceTree = "<group>"; };
+		2C9B71CB24767BBF0053893A /* OrganizationInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganizationInfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +86,25 @@
 			children = (
 				2C9B71992472CFBC0053893A /* AppDelegate.swift */,
 				2C9B719B2472CFBC0053893A /* SceneDelegate.swift */,
-				2C9B719D2472CFBC0053893A /* FirstViewController.swift */,
-				2C9B719F2472CFBC0053893A /* SecondViewController.swift */,
 				2C9B71A12472CFBC0053893A /* Main.storyboard */,
 				2C9B71A42472CFBE0053893A /* Assets.xcassets */,
 				2C9B71A62472CFBE0053893A /* LaunchScreen.storyboard */,
 				2C9B71A92472CFBE0053893A /* Info.plist */,
+				2C9B71BB2473A8170053893A /* CurrentRaffleTableViewCell.swift */,
+				2C9B71B12472D3740053893A /* CurrentRaffleTableViewController.swift */,
+				2C9B71B3247399890053893A /* SQLiteDatabase.swift */,
+				2C9B71B524739CBB0053893A /* Raffle.swift */,
+				2C9B71B724739EE60053893A /* Ticket.swift */,
+				2C9B71B924739FCB0053893A /* Customer.swift */,
+				2C9B71BD2473CA130053893A /* AddRaffleViewController.swift */,
+				2C9B71BF2473CC300053893A /* VeiwRaffleDetailViewController.swift */,
+				2C9B71C124754E750053893A /* TicketTableViewController.swift */,
+				2C9B71C324754EA10053893A /* TicketTableViewCell.swift */,
+				2C9B71C5247645160053893A /* RaffleDrawViewController.swift */,
+				2C9B71C7247676240053893A /* PastRaffleTableViewController.swift */,
+				2C9B71C9247676440053893A /* PastRaffleTableViewCell.swift */,
+				2C9B71CB24767BBF0053893A /* OrganizationInfoViewController.swift */,
+				2C43AED22482B32A0038BDB3 /* TicketDetailPopup.swift */,
 			);
 			path = RaffleApp;
 			sourceTree = "<group>";
@@ -141,10 +180,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C9B71A02472CFBC0053893A /* SecondViewController.swift in Sources */,
-				2C9B719E2472CFBC0053893A /* FirstViewController.swift in Sources */,
+				2C9B71CC24767BBF0053893A /* OrganizationInfoViewController.swift in Sources */,
+				2C43AED32482B32A0038BDB3 /* TicketDetailPopup.swift in Sources */,
+				2C9B71BA24739FCB0053893A /* Customer.swift in Sources */,
+				2C9B71B22472D3740053893A /* CurrentRaffleTableViewController.swift in Sources */,
+				2C9B71CA247676440053893A /* PastRaffleTableViewCell.swift in Sources */,
+				2C9B71C02473CC300053893A /* VeiwRaffleDetailViewController.swift in Sources */,
+				2C9B71B824739EE60053893A /* Ticket.swift in Sources */,
 				2C9B719A2472CFBC0053893A /* AppDelegate.swift in Sources */,
+				2C9B71C424754EA10053893A /* TicketTableViewCell.swift in Sources */,
 				2C9B719C2472CFBC0053893A /* SceneDelegate.swift in Sources */,
+				2C9B71BC2473A8170053893A /* CurrentRaffleTableViewCell.swift in Sources */,
+				2C9B71B4247399890053893A /* SQLiteDatabase.swift in Sources */,
+				2C9B71C6247645160053893A /* RaffleDrawViewController.swift in Sources */,
+				2C9B71BE2473CA130053893A /* AddRaffleViewController.swift in Sources */,
+				2C9B71B624739CBB0053893A /* Raffle.swift in Sources */,
+				2C9B71C8247676240053893A /* PastRaffleTableViewController.swift in Sources */,
+				2C9B71C224754E750053893A /* TicketTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
