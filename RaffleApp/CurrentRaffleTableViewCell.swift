@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+// ignore this line, for testing git
 class CurrentRaffleTableViewCell: UITableViewCell {
     @IBOutlet var raffleName: UILabel!
     @IBOutlet var raffleStatus: UILabel!
